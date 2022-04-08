@@ -232,7 +232,7 @@ button {
   align-items: center;
 }
 
-.container-mobile div {
+.container-mobile .google-play {
   margin-left: 10px;
 }
 
@@ -291,25 +291,25 @@ footer {
   .section-footer div span,
   .section-footer div select {
       text-align: center;
-    font-weight: 400;
-    line-height: 16px;
-    font-size: 13px;
     border: none;
     background-color: none;
     text-decoration: none;
     color: #8e8e8e;
   }
+  
+  .part-one, .part-two, .part-three{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .form-login{
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media only screen and (max-width: 381px) {
-  .content-left {
-    display: none;
-  }
-
-  .form {
-    margin: 0px;
-  }
-
   .form-login {
     width: auto;
     height: auto;
@@ -321,10 +321,6 @@ footer {
   .password-dont-know {
     margin-top: 10px;
     margin-bottom: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 0.6rem;
   }
 
   .container-separator {
@@ -335,13 +331,6 @@ footer {
 }
 
 @media only screen and (max-width: 293px) {
-  .content-left {
-    display: none;
-  }
-
-  .form {
-    margin: 0px;
-  }
 
   .form-login {
     width: auto;
@@ -363,50 +352,38 @@ footer {
     border: none;
   }
 
-  .container-separator {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .ou span {
-    margin: 0 18px;
-    font-weight: 600;
-    line-height: 15px;
-    color: #8e8e8e;
-    font-size: 13px;
-  }
-
   .divisor {
-    height: 1px;
     width: 30vw;
-    background-color: #dbdbdb;
   }
 
   input {
-    border-radius: 3px;
     width: 95vw;
-    height: 37px;
-    margin-bottom: 5px;
-    border: #dbdbdb 1px solid;
-    background-color: #fafafa;
-    padding: 9px 0 7px 8px;
-    font-size: 0.7rem;
   }
 
   button {
-    margin-top: 10px;
-    background-color: #b2dffc;
-    border: none;
-    border-radius: 4px;
     width: 95vw;
-    height: 30px;
-    color: white;
-    font-weight: bold;
   }
 
   .container-mobile {
     display: flex;
     flex-direction: column;
+  }
+
+  .container-register p{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .instagram img{
+    width: 80vw;
+  }
+
+  .container-mobile .google-play {
+    margin-left: 0;
+  }
+
+  .letting{
+    text-align: center;
   }
 }
