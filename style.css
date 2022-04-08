@@ -290,20 +290,22 @@ footer {
   .section-footer div a,
   .section-footer div span,
   .section-footer div select {
-      text-align: center;
+    text-align: center;
     border: none;
     background-color: none;
     text-decoration: none;
     color: #8e8e8e;
   }
-  
-  .part-one, .part-two, .part-three{
+
+  .part-one,
+  .part-two,
+  .part-three {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
 
-  .form-login{
+  .form-login {
     display: flex;
     justify-content: center;
   }
@@ -331,7 +333,6 @@ footer {
 }
 
 @media only screen and (max-width: 293px) {
-
   .form-login {
     width: auto;
     height: auto;
@@ -369,13 +370,13 @@ footer {
     flex-direction: column;
   }
 
-  .container-register p{
+  .container-register p {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
 
-  .instagram img{
+  .instagram img {
     width: 80vw;
   }
 
@@ -383,7 +384,7 @@ footer {
     margin-left: 0;
   }
 
-  .letting{
+  .letting {
     text-align: center;
   }
 }
