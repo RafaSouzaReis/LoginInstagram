@@ -124,6 +124,12 @@ input::placeholder {
   font-weight: 200;
 }
 
+input:focus{
+  border: #acacac 1px solid;
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
 button {
   margin-top: 10px;
   background-color: #b2dffc;
